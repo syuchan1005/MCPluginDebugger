@@ -67,7 +67,7 @@ debug:
     
 1. Open your IntelliJ IDEA. and open plugins setting.
 2. Click `Browse repositories...`.
-3. type `MCPluginDebugger` in SearchBox.
+3. input `MCPluginDebugger` in SearchBox.
 4. click `Install` and restart it!
 5. Open `View -> Tool Windows -> MCDebugConsole` and write your config.
  
@@ -79,7 +79,7 @@ debug:
     <p>
     
 1. Open your Eclipse. and open `Help -> Install New Software...`
-2. type `https://syuchan1005.github.io/MCPluginDebuggerforEclipse` in `Work with: `Box.
+2. input `https://syuchan1005.github.io/MCPluginDebuggerforEclipse` in `Work with: `Box.
 3. open `Debug` and check `MCPluginDebuggerforEclipse`.
 4. click `Next >` two times, check `I accept....`.
 5. click `Finish` and restart it!.
@@ -92,10 +92,10 @@ debug:
     <summary>Netbeans</summary>
     <p>
     
-1. Open your browser and Download Latest Release (http://plugins.netbeans.org/plugin/72520).
-2. Open your netbeans, open `Tools -> Plugins -> Downloaded`.
-3. click `Add Plugins...` and select download file.
-4. click `Install`, `Next >`, check `I accept..`.
+1. Open your NetBeans, open `Tools -> Plugins -> Available Plugins`.
+2. input `MCPluginDebugger` in SearchBox.
+3. check `Install` in `MCPluginDebugerforNetbeans` and click `Install`. 
+4. click `Next >`, check `I accept..`.
 5. click `Install -> Continue -> Finish` and restart it!.
 6. Open `Window -> MCDebugConsole`, and write your config.
     </p>
