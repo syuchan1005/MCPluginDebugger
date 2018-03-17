@@ -33,7 +33,7 @@ debug:
     <plugins>
         <plugin>
             <groupId>com.github.syuchan1005</groupId>
-            <artifactId>MCPluginDebuggerforMaven-maven-plugin</artifactId>
+            <artifactId>MCPluginDebugger-maven-plugin</artifactId>
             <version>1.0-SNAPSHOT</version>
             <executions>
                 <execution>
