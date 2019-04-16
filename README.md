@@ -21,8 +21,8 @@ debug:
 
 ```xml
 <repository>
-    <id>jitpack.io</id>
-    <url>https://jitpack.io</url>
+    <id>syuchan1005-repo</id>
+    <url>https://syuchan1005.github.io/MavenRepository/</url>
 </repository>
 ```
 
@@ -34,7 +34,7 @@ debug:
         <plugin>
             <groupId>com.github.syuchan1005</groupId>
             <artifactId>MCPluginDebugger-maven-plugin</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <executions>
                 <execution>
                     <phase>package</phase>
@@ -42,10 +42,10 @@ debug:
                         <goal>send</goal>
                     </goals>
                     <configuration>
-                        <host>write your setting!</host>
-                        <port>write your setting!</port>
-                        <pluginName>write your setting!</pluginName>
-                        <jarFilePath>${basedir}/write/your/jar/path</jarFilePath>
+                        <host>localhost</host>
+                        <port>9000</port>
+                        <pluginName>${project.name}</pluginName>
+                        <jarFilePath>${basedir}/target/YourJarFile.jar</jarFilePath>
                     </configuration>
                 </execution>
             </executions>
